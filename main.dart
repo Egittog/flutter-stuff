@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget { // widget class MyApp is then a child of S
   @override
   Widget build(BuildContext context) { //build method. it returns the widget class MaterialApp, which is the child of StatelessWidget.
     return MaterialApp( 
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false, // Removes the debug banner!!
       title: 'Advanced Flutter App',
       theme: ThemeData(
         primarySwatch: Colors.blue, //I chnaged this to pink but saw no change
